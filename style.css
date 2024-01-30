@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body .rubik-maps-regular {
+    font-family: "Rubik Maps", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+header{
+    align-items: center;
+    color: blue;
+    background-color: beige;
+}
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: gray;
+    height: 14vh;
+    width: 100vw;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.content {
+        display: flex;
+        justify-content: center;
+    }
+.content p{
+    margin-left: 20px;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1 px solid black;
+    border-radius: 15px;
+}
+.imag2{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    margin: 10px;
+}
+.imag3{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+   
+#Products{
+    margin-top: 20px;
+    color: red;
+    font-family: 'Ubuntu Mono', monospace;
+     text-align: center;
+   
+}
+#container2 {
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    margin: 41px;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax( 1fr));
+    margin: 30px;
+}
+#now{
+    margin: 20px;
+    padding: 10px;
+}
+#now2{
+    margin: 20px;
+    padding: 10px;
+}
+#now3{
+    margin: 20px;
+    padding: 10px;
+}
+.btn{
+    margin-left: 70px;
+}
+footer {
+    text-align: center;
+}
